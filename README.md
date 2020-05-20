@@ -3,4 +3,4 @@
 ## Current Themes
 
 ### BreezeDark
-![BreezeDark](screenshots/BreezeDark.png)
+![BreezeDark](screenshots/BreezeDark.png#2)
