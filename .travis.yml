@@ -1,0 +1,28 @@
+language: minimal
+
+addons:
+  apt:
+      packages:
+      - fakeroot
+      - maven
+
+os:
+  - linux
+
+jobs:
+  include:
+    - stage: build
+      os: linux
+      script:
+        - .travis/build.bash
+      before_deploy:
+        - cd target
+      deploy:
+        provider: releases
+        api_key: '$GITHUB_API_KEY'
+        file_glob: true
+        file: 
+          - "*.jar"
+        skip_cleanup: true
+        on:
+          tags: true  
