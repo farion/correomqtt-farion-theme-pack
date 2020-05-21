@@ -6,7 +6,7 @@
 
     <groupId>org.correomqtt.plugin</groupId>
     <artifactId>farion-theme-pack-plugin</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.3</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,7 +16,7 @@
 
         <plugin.id>farion-theme-pack-plugin</plugin.id>
         <plugin.class />
-        <plugin.version>0.0.1</plugin.version>
+        <plugin.version>0.0.3</plugin.version>
         <plugin.provider>Frieder Reinhold</plugin.provider>
         <plugin.description>Adds favorite themes.</plugin.description>
         <plugin.requires />
