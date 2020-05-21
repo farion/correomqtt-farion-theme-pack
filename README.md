@@ -4,3 +4,6 @@
 
 ### BreezeDark
 ![BreezeDark](screenshots/BreezeDark1.png)
+
+### Breeze
+![Breeze](screenshots/Breeze.png)
